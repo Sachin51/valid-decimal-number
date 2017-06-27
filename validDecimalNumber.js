@@ -1,6 +1,6 @@
 (function(){
 
-angular.module('valid.decimal.number', [])
+angular.module('myApp', [])
       
 .directive('validDecimalNumber', function () {
       return {
