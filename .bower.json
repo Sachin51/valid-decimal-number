@@ -1,0 +1,34 @@
+{
+  "name": "valid-decimal-number",
+  "authors": [
+    "Sachin Kumar <ska261291@gmail.com>"
+  ],
+  "description": "Allows users to enter decimal values,provides user to specify the precision of decimal values required also.",
+  "main": "js/validDecimalNumber.js",
+  "version":"1.0.0",
+  "keywords": [
+    "decimal",
+    "number",
+    "validation",
+    "validate"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Sachin51/valid-decimal-number",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "8636d45720",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8636d4572035cac50558ef90d94997d459afcc6c"
+  },
+  "_source": "https://github.com/Sachin51/valid-decimal-number.git",
+  "_target": "*",
+  "_originalSource": "valid-decimal-number",
+  "_direct": true
+}
