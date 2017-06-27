@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4/angular.min.js"></script>
+    <script src="validDecimalNumber.js"></script>
+	<script src="scripts.js"></script>
+    <title>valid-decimal-number</title>
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="myCtrl">
+	  <input type="text" valid-decimal-number decimal="0" ng-model="inputNumberNoDecimal"/>
+      <input type="text" valid-decimal-number decimal="1" ng-model="inputNumberOneDecimal"/>
+	  <input type="text" valid-decimal-number decimal="2" ng-model="inputNumberTwoDecimal"/>
+	  <input type="text" valid-decimal-number decimal="3" ng-model="inputNumberThreeDecimal"/>
+      </form>
+    </div>
+  </body>
+</html>
