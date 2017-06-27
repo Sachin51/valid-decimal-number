@@ -1,3 +1,7 @@
+(function(){
+
+angular.module('valid.decimal.number', [])
+      
 .directive('validDecimalNumber', function () {
       return {
         require: '?ngModel',
