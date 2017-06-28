@@ -1,5 +1,5 @@
 (function () {
-  angular.module('myApp', ['focus.invalid.field'])
+  angular.module('myApp', ['valid.decimal.number'])
     .controller('myCtrl', ['$scope', function ($scope) {
 
       $scope.inputNumberNoDecimal = 99;
