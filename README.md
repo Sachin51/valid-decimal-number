@@ -10,3 +10,15 @@ Allows users to enter decimal values,provides user to specify the precision of d
     <input type="text" valid-decimal-number decimal="2" ng-model="inputNumberTwoDecimal"/>
 
     Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
+    
+    
+    
+    ## Installation
+
+### Bower
+
+````bash
+bower install valid-decimal-number --save
+
+
+
