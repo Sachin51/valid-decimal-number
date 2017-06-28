@@ -12,8 +12,7 @@ Allows users to enter decimal values,provides user to specify the precision of d
     Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
     
     
-    
-    ## Installation
+## Installation
 
 ### Bower
 
