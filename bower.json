@@ -4,7 +4,7 @@
     "Sachin Kumar <ska261291@gmail.com>"
   ],
   "description": "Allows users to enter decimal values,provides user to specify the precision of decimal values required also.",
-  "main": "js/validDecimalNumber.js",
+  "main": "validDecimalNumber.js",
   "keywords": [
     "decimal",
     "number",
