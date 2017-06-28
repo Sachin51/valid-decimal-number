@@ -1,5 +1,6 @@
 {
   "name": "valid-decimal-number",
+  "version": "1.0.0",
   "authors": [
     "Sachin Kumar <ska261291@gmail.com>"
   ],
@@ -12,7 +13,7 @@
     "validate"
   ],
   "dependencies": {
-    "angular": "^1.3"
+    "angular": "^1.6.4"
   },
   "license": "MIT",
   "homepage": "",
