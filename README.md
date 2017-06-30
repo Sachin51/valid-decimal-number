@@ -3,21 +3,31 @@ Allows users to enter decimal values,provides user to specify the precision of d
 
 # Usage
 
-    <input type="text" valid-decimal-number decimal="0" ng-model="inputNumberNoDecimal"/>
-	  
-    Here it accepts a number without any decimals as decimal="0".
-    
-    <input type="text" valid-decimal-number decimal="2" ng-model="inputNumberTwoDecimal"/>
+```html
+Here it accepts a number without any decimals as decimal="0".
 
-    Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
-    
+<input type="text" valid-decimal-number decimal="0" ng-model="inputNumberNoDecimal"/>
+
+ <input type="text" valid-decimal-number decimal="2" ng-model="inputNumberTwoDecimal"/>
+
+Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
+
+``` 
     
 ## Installation
-
 ### Bower
 
 ````bash
-bower install valid-decimal-number --save
+bower install valid-decimal-number --save.
+
+```
+
+### Add module dependency and configure it
+
+````js
+angular.module('yourAppModule', ['valid.decimal.number']);
+````
+
 
 
 
