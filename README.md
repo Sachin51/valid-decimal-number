@@ -22,11 +22,11 @@ bower install valid-decimal-number --save.
 
 ```
 
-### Add module dependency and configure it
+## Add module dependency and configure it
 
 ````js
 angular.module('yourAppModule', ['valid.decimal.number']);
-````
+```
 
 
 
