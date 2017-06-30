@@ -28,3 +28,7 @@ bower install valid-decimal-number --save.
 angular.module('yourAppModule', ['valid.decimal.number']);
 
 ````
+
+Demo
+--------
+[DEMO link] (https://plnkr.co/edit/GbVTltpzGipTGAjg1ZeS?p=preview)
