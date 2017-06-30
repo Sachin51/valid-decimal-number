@@ -20,11 +20,11 @@ Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
 ````bash
 bower install valid-decimal-number --save.
 
-```
+````
 
 ### Add module dependency and configure it
 
 ````js
 angular.module('yourAppModule', ['valid.decimal.number']);
 
-```
+````
