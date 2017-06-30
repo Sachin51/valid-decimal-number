@@ -31,4 +31,5 @@ angular.module('yourAppModule', ['valid.decimal.number']);
 
 Demo
 --------
-[DEMO link] (https://plnkr.co/edit/GbVTltpzGipTGAjg1ZeS?p=preview)
+Demo: [a link {:target="_blank"}](https://plnkr.co/edit/GbVTltpzGipTGAjg1ZeS?p=preview) that opens in a new window.
+
