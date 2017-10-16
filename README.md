@@ -4,13 +4,17 @@ Allows users to enter decimal values,provides user to specify the precision of d
 # Usage
 
 ```html
-Here it accepts a number without any decimals as decimal="0".
+Here it accepts any positive number without any decimals as decimal="0".
 
-<input type="text" valid-decimal-number decimal="0" ng-model="inputNumberNoDecimal"/>
+<input type="text" valid-decimal-number positive-only="true" decimal="0" ng-model="inputNumberNoDecimal"/>
+
+<input type="text" valid-decimal-number positive-only="true" decimal="2" ng-model="inputNumberTwoDecimal"/>
+
+Here it accepts any positive number with only 2 digits after the decimal(.) as decimal="2".
 
 <input type="text" valid-decimal-number decimal="2" ng-model="inputNumberTwoDecimal"/>
 
-Here it accepts a number with only 2 digits after the decimal(.) as decimal="2".
+Here it accepts any number(positive/negative) with only 2 digits after the decimal(.) as decimal="2".
 
 ``` 
     
