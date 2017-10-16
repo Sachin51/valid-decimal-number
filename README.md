@@ -35,6 +35,6 @@ angular.module('yourAppModule', ['valid.decimal.number']);
 
 Demo
 --------
-[DEMO link] (https://plnkr.co/edit/GbVTltpzGipTGAjg1ZeS?p=preview)
+[DEMO link] (https://plnkr.co/edit/hmvgUpRs5fsJ08XiKR4G?p=preview)
 
 
